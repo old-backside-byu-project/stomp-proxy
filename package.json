@@ -1,0 +1,31 @@
+{
+  "name": "stomp-proxy",
+  "version": "0.0.0",
+  "description": "A stomp proxy with frame re-writing and error handling",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/backside/stomp-proxy.git"
+  },
+  "keywords": [
+    "stomp",
+    "proxy"
+  ],
+  "author": "addisonj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backside/stomp-proxy/issues"
+  },
+  "dependencies": {
+    "stompjs": "~2.3.1",
+    "async": "~0.9.0"
+  },
+  "devDependencies": {
+    "duplexer": "~0.1.1",
+    "through": "~2.3.4",
+    "mocha": "~1.19.0"
+  }
+}
