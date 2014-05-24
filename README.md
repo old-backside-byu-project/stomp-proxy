@@ -76,6 +76,8 @@ proxy.onDelete = function(session, frame, cb) {
 // we don't wan to rewrite server frames, can be slightly more efficent
 var proxy = new StompProxy(client, upstream, {serverPassthrough: true})
 ```
+### More examples
+* (backside-proxy)[https://github.com/backside/backside-proxy/blob/master/lib/proxy.js]
 
 # License
 MIT
