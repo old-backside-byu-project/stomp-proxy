@@ -1,6 +1,6 @@
 {
   "name": "stomp-proxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A stomp proxy with frame re-writing and error handling",
   "main": "index.js",
   "scripts": {
